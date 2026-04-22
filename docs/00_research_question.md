@@ -50,7 +50,7 @@ The maximum isolated score is NOT the main metric.
 * High variance between runs if the population is small.
 * Robustness to environment stochasticity by not depending on gradients.
 * Lower sensitivity to reward shaping than RL methods.
-* Transfer from prior work (TSP): GA explores the parameter space well but takes time to refine. In noisy environments it can be more robust than gradient-based methods, but less sample-efficient.
+* Expected tradeoff: broad parameter-space exploration at the cost of sample efficiency compared to gradient-based methods.
 
 ### DQN
 
